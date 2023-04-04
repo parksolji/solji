@@ -1,0 +1,38 @@
+input{
+  font: size 35%;
+  border: 2px solid rgb(183, 183, 183);
+  height: 40px;
+  width: 280px;
+  border-radius: 5px;
+}
+.login{
+  background: #d0dc8e;
+  border: 1.5px solid rgb(205, 205, 205);
+  border-radius: 5px;
+  transition: 0.25s;
+  font-size: 1.2em;
+  display: inline-flex;
+}
+.login:active{
+  border-style: dashed;
+}
+.text{
+  font: size 30%;
+  font-weight: bolder;
+  position: absolute;
+}
+h1{
+  font-family: 'Courier New', Courier, monospace;
+}
+.join_all{
+  display: grid;
+  place-items: center;
+}
+.back{
+  background: #ffe7be;
+  border: 1.5px solid rgb(205, 205, 205);
+  border-radius: 5px;
+  transition: 0.25s;
+  font-size: 1.0em;
+  
+}

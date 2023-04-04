@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIGNUP</title>
+        <link rel="stylesheet" href="Sign_up.css">
+    </head>
+    <body style="background-color: rgb(251, 255, 247);">
+        <h1 align="center">회원가입</h1><br><br><br>
+        <div class="join_all">
+        <div class="ID">
+            <b class="text">아이디</b><br>
+            <input class="id" type="text" placeholder="아이디"><br><br><br>
+        </div>
+        <div class="PW">
+            <b class="text">비밀번호</b><br>
+            <input class="pw" type="password" placeholder="비밀번호"><br><br><br>
+        </div>
+        <div class="PWCHECK">
+            <b class="text">비밀번호 확인</b><br>
+            <input class="pw-check" type="password" placeholder="비밀번호 확인"><br><br><br>
+        </div>
+        <div class="SNUM">
+            <b class="text">학번</b><br>
+            <input class="student-number" type="number" placeholder="학번"><br><br><br>
+        </div>
+        <div class="MAJOR">
+            <b class="text">학년</b><br>
+            <input class="major" type="number" placeholder="학년" maxlength="1"><br><br><br>
+        </div>
+        <div class="PNUM">
+            <b class="text">전화번호</b><br>
+            <input class="phone-number" type="tel" placeholder="전화번호" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required><br><br><br>
+        </div>
+        <!-- <div>
+            <b class="text">성별</b><br>
+            <input class="gender" type="radio" value="man" checked>남
+            <input class="gender" type="radio" value="woman">여<br><br><br>
+        </div>
+        <div>
+            <b class="info">본인 확인 이메일(선택)</b><br>
+            <input class="text" type="email" name="email"><br>
+        </div>
+        <div>
+            <input type="checkbox"> email 수신 동의<br><br><br>
+        </div> -->
+        <div class="BTN">
+            <button class="back" type="button" onclick="location.href='go_page.html' ">Go Home</button>
+            <button class="sign_up" type="button">Sign up</button>
+            <button class="cancel" type="button" onclick="location.href='Sign_in.html' ">Cancel</button>
+        </div>
+        </div>
+
+    </body>
+</html>

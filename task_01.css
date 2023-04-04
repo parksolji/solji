@@ -1,0 +1,31 @@
+.Header {
+    background-color: rgb(255, 0, 0);
+    height:60px;
+    text-align: center;
+}
+.Navigation{
+    background-color: rgb(0, 255, 17);
+    width:100px;
+    height:calc(100vh - 100px);
+    display: inline-block;
+    text-align: center;
+}
+.Main{
+    background-color: rgb(255, 0, 212);
+    width:calc(100vw - 245px);
+    height:calc(100vh - 100px);
+    display: inline-block;
+    text-align: center;
+}
+.Slider{
+    background-color: rgb(246, 255, 0);
+    width:100px;
+    height:calc(100vh - 100px);
+    display: inline-block;
+    text-align: center;
+}
+.Footer{
+    background-color: rgb(255, 0, 0);
+    height:40px;
+    text-align: center;
+}

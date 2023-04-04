@@ -1,0 +1,52 @@
+.text{
+  font: size 30%;
+  font-weight: bolder;
+  position: absolute;
+}
+.sign_up{
+  width: 80px;
+  height: 30px;
+  background: #d0dc8e;
+  border: 1.5px solid rgb(205, 205, 205);
+  border-radius: 5px;
+  transition: 0.25s;
+  font-size: 1.2em;
+}
+.sign_up:active{
+  border-style: dashed;
+}
+.cancel{
+  width: 80px;
+  height: 30px;
+  background: #e6e7e2;
+  border: 1.5px solid rgb(205, 205, 205);
+  border-radius: 5px;
+  transition: 0.25s;
+  font-size: 1.2em;
+}
+.cancel:active{
+  border-style: dashed;
+}
+.join_all{
+  display: grid;
+  place-items: center;
+}
+
+input{
+  font: size 35%;
+  border: 2px solid rgb(183, 183, 183);
+  height: 40px;
+  width: 280px;
+  border-radius: 5px;
+}
+h1{
+  font-family: 'Courier New', Courier, monospace;
+}
+.back{
+  background: #ffe7be;
+  border: 1.5px solid rgb(205, 205, 205);
+  border-radius: 5px;
+  transition: 0.25s;
+  font-size: 1.0em;
+  
+}
